@@ -1,24 +1,25 @@
-# hello_world
 
-A new Flutter project created with https://flutlab.io
+# Tic-Tac-Toe
 
-## Getting Started
+Tic Tac Toe project in Flutter is a simple mobile application that allows users to play the classic Tic Tac Toe game on their smartphones. Flutter is a UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.
 
-This project is a starting point for a Flutter application.
+Here's a brief description of how a Tic Tac Toe project in Flutter might be structured:
 
-A few resources to get you started if this is your first Flutter project:
+UI Design:
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+The app typically has a simple interface with a 3x3 grid representing the Tic Tac Toe board.
+Each cell in the grid can be empty, marked with an 'X', or marked with an 'O'.
+Display areas for player turns, game status (win, draw), and a reset button.
+State Management:
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter uses a widget-based architecture, and the game state is managed by Flutter's built-in StatefulWidget or a state management solution like Provider, Bloc, or Riverpod.
+The state includes the current player's turn, the state of each cell in the grid, and the game's status (ongoing, won, or drawn).
+Game Logic:
 
-## Getting Started: FlutLab - Flutter Online IDE
+The game logic determines the winner based on the rules of Tic Tac Toe: a player wins if they have three of their marks in a row (horizontally, vertically, or diagonally).
+The game logic also checks for a draw if the entire board is filled without a winner.
+User Interaction:
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Discover a marketplace of ready-to-use Flutter projects https://flutlab.io/widgetbay
-- Join the discussion and conversation on https://flutlab.io/residents
+Users can tap on empty cells to make a move.
+The app responds to user input, updates the game state, and re-renders the UI.
 
-If you have some questions regarding FlutLab, you can ask on https://flutlab.io/faq
