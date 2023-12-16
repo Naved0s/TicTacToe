@@ -1,8 +1,7 @@
 
 # Tic-Tac-Toe
 
-Tic Tac Toe project in Flutter is a simple mobile application that allows users to play the classic Tic Tac Toe game on their smartphones. Flutter is a UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.
-
+Tic Tac Toe project in Flutter is a simple mobile application that allows users to play the classic Tic Tac Toe game on their smartphones.
 Here's a brief description of how a Tic Tac Toe project in Flutter might be structured:
 
 1)UI Design:
